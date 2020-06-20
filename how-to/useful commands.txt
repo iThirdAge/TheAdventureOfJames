@@ -1,0 +1,19 @@
+get-adprincipalgroupmembership hv05 | sort name | select name
+
+get-aduser hv05
+
+get-aduser -f {Name -eq 'Vu, Harrison'}
+
+Get-ChildItem | Where-Object { $_.PSIsContainer } | ForEach-Object { $_.Name + ": " + "{0:N2}" -f ((Get-ChildItem $_ -Recurse | Measure-Object Length -Sum -ErrorAction SilentlyContinue).Sum / 1MB) + " MB" }
+
+Get-ChildItem | Where-Object -FilterScript {$_.PSIsContainer -eq $True} | Where-Object -FilterScript {($_.GetFiles().Count -eq 0) -and $_.GetDirectories().Count -eq 0}
+
+Get-ChildItem -Recurse | Where-Object -FilterScript {($_.GetFiles().Count -eq 0) -and $_.GetDirectories().Count -eq 0} | Select-Object -ExpandProperty FullName
+
+Invoke-Item "C:\users\hv\documents\useful ps commands.txt"
+
+& 'C:\Users\hv\Documents\deleteFolders.bat'
+
+dir | select name > 'C:\Users\hv\Documents\out.txt'
+
+docker service logs <id>

@@ -1,0 +1,13 @@
+diskpart
+
+list disk
+
+select <disk>
+
+clean
+
+create partition primary
+
+format fs=ntfs
+
+assign

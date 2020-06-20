@@ -1,0 +1,1 @@
+C:\dev\tools\python-3.6.4\python.exe C:\Users\hv\Documents\Troubleshooting\python\validate-comments.py --fpr C:\Users\hv\Documents\Troubleshooting\myFile.fpr

@@ -1,0 +1,1 @@
+These are all tasks one would have to do after imaging a PC.

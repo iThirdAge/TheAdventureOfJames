@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineSkipDockerProperty", "DefineSkipDockerProperty\DefineSkipDockerProperty.csproj", "{8E818FBC-9E04-4EE0-98C1-CD8E09483172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E818FBC-9E04-4EE0-98C1-CD8E09483172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E818FBC-9E04-4EE0-98C1-CD8E09483172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E818FBC-9E04-4EE0-98C1-CD8E09483172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E818FBC-9E04-4EE0-98C1-CD8E09483172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0364D17C-088D-4B1B-9C09-2F05381923DE}
+	EndGlobalSection
+EndGlobal

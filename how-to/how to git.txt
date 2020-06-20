@@ -1,0 +1,27 @@
+navigate to local git repo
+
+open "git bash" here by right clicking an empty space (alternatively, git here anywhere then navigate to directory containing the code)
+
+git add * to stage files to add to github that you have changed
+
+git status to check
+
+git checkout -b <branch name> to make a new branch for changes
+
+git commit -m <message here>
+
+git push -u origin <branch name>
+-- beware you might run into authentication issues when changing password
+-- sequence to remove origin and add back: git remote -v ; git remote remove origin ; git remote add origin <repo>
+
+Go to Github website and view the pull to merge it.
+
+Once merged
+git checkout master
+-- swap to master branch
+
+git pull --prune
+-- update your local repo with what's changed on github
+
+if you need to make additional changes while a branch hasn't been merged, just use
+git commit -m <message>

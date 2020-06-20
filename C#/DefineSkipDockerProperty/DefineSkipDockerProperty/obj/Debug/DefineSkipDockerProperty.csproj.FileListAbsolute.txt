@@ -1,0 +1,7 @@
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\bin\Debug\DefineSkipDockerProperty.exe.config
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\bin\Debug\DefineSkipDockerProperty.exe
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\bin\Debug\DefineSkipDockerProperty.pdb
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\obj\Debug\DefineSkipDockerProperty.csprojAssemblyReference.cache
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\obj\Debug\DefineSkipDockerProperty.csproj.CoreCompileInputs.cache
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\obj\Debug\DefineSkipDockerProperty.exe
+C:\Users\hv057333\source\repos\DefineSkipDockerProperty\DefineSkipDockerProperty\obj\Debug\DefineSkipDockerProperty.pdb

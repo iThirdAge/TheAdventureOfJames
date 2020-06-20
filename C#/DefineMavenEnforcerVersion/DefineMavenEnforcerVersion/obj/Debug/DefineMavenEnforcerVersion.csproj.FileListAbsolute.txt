@@ -1,0 +1,9 @@
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\bin\Debug\DefineMavenEnforcerVersion.exe.config
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\bin\Debug\DefineMavenEnforcerVersion.exe
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\bin\Debug\DefineMavenEnforcerVersion.pdb
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\obj\Debug\DefineMavenEnforcerVersion.csproj.CoreCompileInputs.cache
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\obj\Debug\DefineMavenEnforcerVersion.exe
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\obj\Debug\DefineMavenEnforcerVersion.pdb
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\obj\Debug\DefineMavenEnforcerVersion.csproj.CopyComplete
+C:\Users\hv057333\source\repos\DefineMavenEnforcerVersion\DefineMavenEnforcerVersion\obj\Debug\DefineMavenEnforcerVersion.csprojAssemblyReference.cache
