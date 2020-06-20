@@ -1,5 +1,5 @@
 # The Butler
-This is a repository that will contain code and documents I write for my job over the years.
+This is a repository that will contain code and documents I write for my job over the years. Feel free to contact me if you're having issues.
 
 ## how-to
 My documentation on useful things I come across overtime.
