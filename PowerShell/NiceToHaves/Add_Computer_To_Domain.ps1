@@ -1,1 +1,1 @@
-﻿Add-Computer -DomainName gc
+﻿Add-Computer -DomainName <domain>
