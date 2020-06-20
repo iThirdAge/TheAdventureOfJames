@@ -1,3 +1,5 @@
+# Harrison Vu
+
 $path = 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System'
 $name = 'EnableLUA'
 $value = '1'
