@@ -1,35 +1,37 @@
+# Harrison Vu
+
 import-module dism
-get-appxpackage -allusers *BingWeather* | remove-appxpackage -allusers  
-get-appxpackage -allusers *Xbox* | remove-appxpackage -allusers
-get-appxpackage -allusers *Att* | remove-appxpackage -allusers
-get-appxpackage -allusers *CandyCrush* | remove-appxpackage -allusers
-get-appxpackage -allusers *Camera* | remove-appxpackage -allusers
-get-appxpackage -allusers *news* | remove-appxpackage -allusers
-get-appxpackage -allusers *EclipseManager* | remove-appxpackage -allusers
-get-appxpackage -allusers *ActiproSoftwareLLC* | remove-appxpackage -allusers
-get-appxpackage -allusers *Duolingo* | remove-appxpackage -allusers
-get-appxpackage -allusers *3DViewer* | remove-appxpackage -allusers
-get-appxpackage -allusers *Print3D* | remove-appxpackage -allusers
-get-appxpackage -allusers *Wallet* | remove-appxpackage -allusers
-get-appxpackage -allusers *CBSPreview* | remove-appxpackage -allusers
-get-appxpackage -allusers *get* | remove-appxpackage -allusers
-get-appxpackage -allusers *skype* | remove-appxpackage -allusers
-get-appxpackage -allusers *oneconnect* | remove-appxpackage -allusers
-get-appxpackage -allusers *office* | remove-appxpackage -allusers
-get-appxpackage -allusers *camera* | remove-appxpackage -allusers
-get-appxpackage -allusers *Bingnews* | remove-appxpackage -allusers
-get-appxpackage -allusers *Messaging* | remove-appxpackage -allusers
-get-appxpackage -allusers *OneNote* | remove-appxpackage -allusers
-get-appxpackage -allusers *People* | remove-appxpackage -allusers
-get-appxpackage -allusers *Photos* | remove-appxpackage -allusers
-get-appxpackage -allusers *Alarms* | remove-appxpackage -allusers
-get-appxpackage -allusers *Maps* | remove-appxpackage -allusers
-get-appxpackage -allusers *Feedback* | remove-appxpackage -allusers
-get-appxpackage -allusers *Zune* | remove-appxpackage -allusers
-get-appxpackage -allusers *Solitaire* | remove-appxpackage -allusers
-get-appxpackage -allusers *Solitaire* | remove-appxpackage -allusers
-get-appxpackage -allusers *News* | remove-appxpackage -allusers
-get-appxpackage -allusers *Lens* | remove-appxpackage -allusers
-get-appxpackage -allusers *office* | remove-appxpackage -allusers
-get-appxpackage -allusers *OfficeLens* | remove-appxpackage -allusers
-Get-AppxPackage -allusers *xboxapp* | Remove-AppxPackage -allusers
+get-appxpackage -allusers *BingWeather* | remove-appxpackage
+get-appxpackage -allusers *Xbox* | remove-appxpackage
+get-appxpackage -allusers *Att* | remove-appxpackage
+get-appxpackage -allusers *CandyCrush* | remove-appxpackage
+get-appxpackage -allusers *Camera* | remove-appxpackage
+get-appxpackage -allusers *news* | remove-appxpackage
+get-appxpackage -allusers *EclipseManager* | remove-appxpackage
+get-appxpackage -allusers *ActiproSoftwareLLC* | remove-appxpackage
+get-appxpackage -allusers *Duolingo* | remove-appxpackage
+get-appxpackage -allusers *3DViewer* | remove-appxpackage
+get-appxpackage -allusers *Print3D* | remove-appxpackage
+get-appxpackage -allusers *Wallet* | remove-appxpackage
+get-appxpackage -allusers *CBSPreview* | remove-appxpackage
+get-appxpackage -allusers *get* | remove-appxpackage
+get-appxpackage -allusers *skype* | remove-appxpackage
+get-appxpackage -allusers *oneconnect* | remove-appxpackage
+get-appxpackage -allusers *office* | remove-appxpackage
+get-appxpackage -allusers *camera* | remove-appxpackage
+get-appxpackage -allusers *Bingnews* | remove-appxpackage
+get-appxpackage -allusers *Messaging* | remove-appxpackage
+get-appxpackage -allusers *OneNote* | remove-appxpackage
+get-appxpackage -allusers *People* | remove-appxpackage
+get-appxpackage -allusers *Photos* | remove-appxpackage
+get-appxpackage -allusers *Alarms* | remove-appxpackage
+get-appxpackage -allusers *Maps* | remove-appxpackage
+get-appxpackage -allusers *Feedback* | remove-appxpackage
+get-appxpackage -allusers *Zune* | remove-appxpackage
+get-appxpackage -allusers *Solitaire* | remove-appxpackage
+get-appxpackage -allusers *Solitaire* | remove-appxpackage
+get-appxpackage -allusers *News* | remove-appxpackage
+get-appxpackage -allusers *Lens* | remove-appxpackage
+get-appxpackage -allusers *office* | remove-appxpackage
+get-appxpackage -allusers *OfficeLens* | remove-appxpackage
+Get-AppxPackage -allusers *xboxapp* | Remove-AppxPackage
