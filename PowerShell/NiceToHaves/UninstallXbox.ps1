@@ -1,4 +1,6 @@
-﻿$packages = @(
+# Harrison Vu
+
+$packages = @(
 "Microsoft.Xbox.TCUI"
 "Microsoft.XboxApp"
 "Microsoft.XboxGameOverlay"
