@@ -1,3 +1,5 @@
+REM Harrison Vu
+
 del /F /Q %APPDATA%\Microsoft\Windows\Recent\*
 
 del /F /Q %APPDATA%\Microsoft\Windows\Recent\AutomaticDestinations\*
