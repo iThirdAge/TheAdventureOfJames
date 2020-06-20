@@ -4,9 +4,6 @@ This is a repository that will contain code and documents I write for my job ove
 ## how-to
 My documentation on useful things I come across overtime.
 
-## troubleshooting-docs
-My issues I run into and find solutions for
-
 ## C#
 This folder contains C# code programs.
 It will probably be the most populated folder as I often use Microsoft code libraries for Microsoft products.
