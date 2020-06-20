@@ -1,0 +1,6 @@
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\bin\Debug\DefineEclipseProfile.exe.config
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\bin\Debug\DefineEclipseProfile.exe
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\bin\Debug\DefineEclipseProfile.pdb
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\obj\Debug\DefineEclipseProfile.csproj.CoreCompileInputs.cache
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\obj\Debug\DefineEclipseProfile.exe
+C:\Users\hv057333\source\repos\DefineEclipseProfile\DefineEclipseProfile\obj\Debug\DefineEclipseProfile.pdb
