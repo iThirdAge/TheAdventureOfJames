@@ -1,4 +1,6 @@
-﻿# Enable Auto Detect for Local Intranet
+# Harrison Vu
+
+# Enable Auto Detect for Local Intranet
 set-location 'HKCU:\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\'
 new-item ZoneMap -Force
 
