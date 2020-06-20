@@ -1,3 +1,5 @@
+# Harrison Vu
+
 $ErrorActionPreference = "SilentlyContinue"
 If ($Error) {$Error.Clear()}
 $RegistryPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
