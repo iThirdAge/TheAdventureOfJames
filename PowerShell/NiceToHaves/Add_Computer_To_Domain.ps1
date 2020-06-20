@@ -1,1 +1,0 @@
-﻿Add-Computer -DomainName <domain>
