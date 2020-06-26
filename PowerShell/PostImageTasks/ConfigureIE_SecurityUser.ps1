@@ -10,19 +10,6 @@ $value = 1
 
 Set-Itemproperty -Path $path -Name $name -Value $value
 
-# Configure Trusted Sites under Local Intranet
-$gcGov = '*.gc.gov'
-$gwinnett = '*.gwinnettcounty.com'
-set-location 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\'
-new-item Domains
-set-location 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\'
-new-item $gcGov -Force
-new-item $gwinnett -Force
-new-itemproperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.gc.gov' -Name https -Value 1 -Type DWORD -Force
-new-itemproperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.gc.gov' -Name http -Value 1 -Type DWORD -Force
-new-itemproperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.gwinnettcounty.com' -Name https -Value 1 -Type DWORD -Force
-new-itemproperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\*.gwinnettcounty.com' -Name http -Value 1 -Type DWORD -Force
-
 # Set Active X for Internet
 $internetPath = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3'
 
@@ -47,7 +34,7 @@ foreach ($element in $arrayToPrompt)
     Set-Itemproperty -Path $internetPath -Name $element -Value 3
 }
 
-# random manual sets
+# random manual sets for allowing auto login through IE
 Set-Itemproperty -Path $internetPath -Name "2007" -Value 65536
 Set-Itemproperty -Path $internetPath -Name "1A00" -Value 0
 
@@ -75,6 +62,6 @@ foreach ($element in $arrayToPrompt)
     Set-Itemproperty -Path $intranetPath -Name $element -Value 3
 }
 
-# random manual sets for Intranet
+# random manual sets for allowing auto login through IE
 Set-Itemproperty -Path $intranetPath -Name "2007" -Value 65536
 Set-Itemproperty -Path $intranetPath -Name "1A00" -Value 0
