@@ -1,5 +1,6 @@
 # Configure Internet Explorer
 # Based on - https://support.microsoft.com/en-us/help/182569/internet-explorer-security-zones-registry-entries-for-advanced-users
+# Harrison Vu
 
 # Homepage
 $path = 'HKCU:\Software\Microsoft\Internet Explorer\Main\'
