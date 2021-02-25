@@ -4,7 +4,7 @@
 $RemotePath = "HKLM:\System\CurrentControlSet\Control\Terminal Server"
 
 # Join computer to domain and rename it
-#Add-Computer -Domain "gc" -NewName #serverName
+#Add-Computer -Domain #computerName -NewName #serverName
 
 Set-TimeZone -Name "Eastern Standard Time"
 Write-Host "EST Timezone Set" -ForegroundColor Green
