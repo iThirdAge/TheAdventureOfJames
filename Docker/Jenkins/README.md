@@ -1,5 +1,5 @@
 # Jenkins
-This contains the Dockerfile used to spin up my Jenkins Instance
+This contains the docker-compose file used to spin up a Jenkins Instance
 
 Download the file and run the following commands from the working directory
 ```
