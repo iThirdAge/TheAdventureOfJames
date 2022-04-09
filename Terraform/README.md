@@ -12,6 +12,7 @@ This will preserve the variable for just the instance of the Powershell window o
 When you install Terraform on Windows, you will need to add the executable to your PATH variable. You can do so through editing directly in the Registry if you wish for Systemwide. For User you need HKCU but beware, this is the current user using Powershell.
 
 `$PATH = "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"`
+
 `Set-ItemProperty -Path $RegPath -Name PATH -Value "$Env:PATH += '<Path_To_TerraformExe>'"`
 
 Alternatively, edit through Control Panel -> System Properties -> Environment Variables 
